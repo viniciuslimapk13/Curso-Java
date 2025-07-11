@@ -12,4 +12,6 @@ public class PaypalService implements OnlinePaymentService{
         BigDecimal result = (amount.multiply(new BigDecimal(1.01))).multiply(new BigDecimal(months));
         return result;
     }
+
+    /*TESTE*/
 }
